@@ -1,0 +1,475 @@
+﻿ 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta name="yandex-verification" content="6ff63b76b794cd14">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <script type="text/javascript" src="assets/82ac22cd/bootstrap.js"></script>
+<script type="text/javascript" src="/assets/90b65eed/unicorn.login.js"></script>
+<script type="text/javascript" src="assets/82ac22cd/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="assets/82ac22cd/bootstrap-multiselect.js"></script>
+<script type="text/javascript" src="assets/a8537a60/jquery-ui-1.10.4.custom.min.js"></script>
+<script type="text/javascript" src="assets/7294fc4/spinner.js"></script>
+<script type="text/javascript" src="assets/64f97afe/prettify.js"></script>
+<script type="text/javascript" src="assets/7294fc4/select2.min.js"></script>
+<script type="text/javascript" src="assets/cb834f5a/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="assets/cb834f5a/jquery.nouislider.js"></script>
+<script type="text/javascript" src="assets/3fcc6b49/globalize.js"></script>
+<script type="text/javascript" src="assets/daeeb39d/init.js"></script>
+<script type="text/javascript" src="assets/a4f58fa8/checkswitch.js"></script>
+<title>PushRevenue - платформа для монетизации push подписок</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="themes/pushrevenue/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="themes/pushrevenue/assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="themes/pushrevenue/assets/img/favicon-16x16.png">
+  <link rel="manifest" href="themes/pushrevenue/assets/img/site.webmanifest">
+
+  <!-- Google Fonts -->
+  <link href="css.css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="themes/pushrevenue/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="themes/pushrevenue/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="themes/pushrevenue/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="themes/pushrevenue/assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="themes/pushrevenue/assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="themes/pushrevenue/assets/css/style.css" rel="stylesheet">
+
+<!-- new -->
+<script src="themes/new/vendor/jquery/jquery.js" type="text/javascript"></script>
+     <link href="themes/new/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/themes/new/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link href="themes/new/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="themes/new/css/creative.css" rel="stylesheet">
+ 
+ <link href="themes/new/css/bootstrap-select.css" rel="stylesheet">
+<script src="/themes/new/js/creative.js"></script>
+<script src="themes/new/js/bootstrap-select.js"></script>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container d-flex">
+
+      <div class="logo mr-auto">
+        <h1 class="text-light"><a href="index.html">Push <span>Revenue.</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="themes/pushrevenue/assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#header">Главная</a></li>
+          <li><a href="#about">Как заработать</a></li>
+          <li><a href="#features">Преимущества</a></li>
+          <li><a href="#contact">Контакты</a></li>
+	  <li><a href="" class="link-sign" data-toggle="modal" data-target="#sign">Вход</a></li>
+	<li> <a href="" class="link-reg" data-toggle="modal" data-target="#reg">Регистрация</a></li>
+	  <!--<li><a href="themes/pushrevenue/views/user/signup.php">Регистрация</a></li>-->
+	  <!--<li><a href="themes/pushrevenue/views/user/login.php">Вход</a></li>-->
+
+          <li class="get-started"><a href="#about">Поехали!</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+   <div id="sign" class="modald overflow-background" role="dialog">
+ <div class="modald-dialog">
+	 <!-- Modal content-->
+	 <div class="modald-content">
+		 <div class="modald-header">
+			 	<h4 class="modald-title title-sign hm4" style="width:180px; height:50px;">Войти</h4>
+
+		 </div>
+
+		 <form id="login-form" action="/user/login" method="POST">		  <div class="modald-body">
+			 <div class="form-group">
+				 <label for="LoginForm_Login_">Login</label>				 <div class="errorMessage" id="LoginForm_username_em_" style="display:none"></div>				 <input class="form-control" style="max-width: 400px;" placeholder="Enter login" name="LoginForm[username]" id="LoginForm_username" type="text">			 </div>
+			 <div class="form-group">
+				 <label for="LoginForm_Password">Password</label>				 <div class="errorMessage" id="LoginForm_password_em_" style="display:none"></div>				 <input class="form-control" style="max-width: 400px;" placeholder="Enter password" name="LoginForm[password]" id="LoginForm_password" type="password">			 </div>
+			<div class="form-group">
+				<input type="checkbox" id="inputOne">
+				<label for="inputOne">Remember me</label>
+			</div>
+<!-- 			 
+			 <div class="form-group">
+				 <a id="recovery" href="#">Восстановить пароль</a>
+			 </div>
+			 -->
+		 </div>
+		 <div class="modald-footer">
+			 <input class="btn btn-default btn-blue" type="submit" name="yt1" value="Login">			 <p>It is not with us?</p>
+			 <a href="" class="link-green" data-dismiss="modal" data-toggle="modal" data-target="#reg">Sign up</a>
+		 </div>
+	 </form>	 </div>
+ </div>
+</div>
+ 
+ <div id="reg" class="modald  overflow-background" role="dialog">
+	
+<div class="modald-dialog">
+    <!-- Modal content-->
+    <div class="modald-content">
+        <div class="modald-header hm4">
+	<h4 class="modald-title title-sign" style="width:250px; height:50px;">Регистрация</h4>
+        </div>
+		 <form id="signup" action="/user/signup" method="POST">		  <div class="modald-body">
+			 <div class="form-group">
+				 <label for="RegistrationForm_Login_">Login</label>				 <div class="errorMessage" id="RegistrationForm_login_em_" style="display:none"></div>				 <input class="form-control"  placeholder="Enter login" name="RegistrationForm[login]" id="RegistrationForm_login" type="text" maxlength="32">			 </div>
+			 <div class="form-group">
+				 <label for="RegistrationForm_Password">Password</label>				 <div class="errorMessage" id="RegistrationForm_pass_em_" style="display:none"></div>				 <input class="form-control"  placeholder="Enter password" name="RegistrationForm[pass]" id="RegistrationForm_pass" type="password" maxlength="32">			 </div>
+
+			<div class="form-group">
+				 <label for="RegistrationForm_Confirm_password">Confirm Password</label>				 <div class="errorMessage" id="RegistrationForm_passRepeat_em_" style="display:none"></div>				 <input class="form-control" style="max-width: 400px;" placeholder="Confirm password" name="RegistrationForm[passRepeat]" id="RegistrationForm_passRepeat" type="password">			 </div>
+
+			<!-- <div class="form-group"> -->
+				 <label for="RegistrationForm_Email">Email</label>				 <div class="errorMessage" id="RegistrationForm_email_em_" style="display:none"></div>				 <input class="form-control" style="max-width: 400px;" placeholder="Enter email" name="RegistrationForm[email]" id="RegistrationForm_email" type="text">			 </div>
+			 
+			<div class="captcha">
+			<label for="RegistrationForm_captchaCode" class="required">Capcha <span class="required">*</span></label>			<input class="form-control" style="max-width: 400px;" placeholder="Type the characters" name="RegistrationForm[captchaCode]" id="RegistrationForm_captchaCode" type="text">			<div class="errorMessage" id="RegistrationForm_captchaCode_em_" style="display:none"></div><img class="captcha__img" alt="Captcha" title="To refresh captcha image click on it" id="captchaCode" src="user/captcha.png?v=608115a49bef1">
+			
+
+			</div>
+
+			 <!--
+			 <div class="form-group">
+				 <a id="recovery" href="#">Восстановить пароль</a>
+			 </div>
+			 -->
+		 </div>
+		 <div class="modald-footer">
+			 <input class="btn btn-default btn-blue" type="submit" name="yt2" value="Sign up ">			 <p>ALREADY WITH US?</p>
+			  <a href="" class="link-green" data-dismiss="modal" data-toggle="modal" data-target="#sign">Login</a>
+		 </div>
+	 </form>    </div>
+</div>
+</div>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+
+    <div class="container">
+      <div class="row d-flex align-items-center">
+      <div class=" col-lg-6 py-5 py-lg-0 order-2 order-lg-1" data-aos="fade-right">
+        <h1>Сервис монетизации Push-уведомлений</h1>
+        <h2>Зарабатывайте на посетителях своих сайтов</h2>
+        <a href="#about" class="btn-get-started scrollto">Поехали!</a>
+      </div>
+      <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
+        <img src="themes/pushrevenue/assets/img/hero-img.png" class="img-fluid" alt="">
+      </div>
+    </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Clients Section ======= -->
+<!--    <section id="clients" class="clients section-bg">
+      <div class="container">
+
+        <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="themes/pushrevenue/assets/img/clients/client-1.png" class="img-fluid" alt="" data-aos="flip-right">
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="themes/pushrevenue/assets/img/clients/client-2.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="100">
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="themes/pushrevenue/assets/img/clients/client-3.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="200">
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="themes/pushrevenue/assets/img/clients/client-4.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="300">
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="themes/pushrevenue/assets/img/clients/client-5.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="400">
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="themes/pushrevenue/assets/img/clients/client-6.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="500">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>-->
+    <!-- End Clients Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg">
+      <div class="container">
+
+        <div class="row">
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
+          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
+            <div class="content d-flex flex-column justify-content-center">
+              <h3 data-aos="fade-in" data-aos-delay="100">Как заработать</h3>
+              <p data-aos="fade-in">
+                Вы размещаете наш рекламный код на своем сайте, предлагая вашим посетителям подписаться на Push-уведомления
+              </p>
+              <p data-aos="fade-in">
+                Ваши подписчики будут получать рекламные сообщения в свой браузер на ПК или в напрямую в смартфон
+              </p>
+              <div class="row">
+                <div class="col-md-6 icon-box" data-aos="fade-up">
+                  <i class="bx bx-receipt"></i>
+                  <h4><a href="#">Монетизация трафика</a></h4>
+                  <p>Подписчики приносят прибыль, даже не заходя на ваши сайты</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="bx bx-cube-alt"></i>
+                  <h4><a href="#">Растущий доход</a></h4>
+                  <p>С увеличением базы подписчиков ваш доход будет постоянно расти</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bx bx-images"></i>
+                  <h4><a href="#">Весь мир</a></h4>
+                  <p>Есть реклама для любой географии трафика</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bx bx-shield"></i>
+                  <h4><a href="#">Ежедневные выплаты</a></h4>
+                  <p>Делаем выплаты партнерам каждый день</p>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 data-aos="fade-in">На чем можно заработать</h2>
+          <p data-aos="fade-in">Этот способ заработка подойдет как и владельцам сайтов, так и арбитражникам</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-right">
+            <div class="card">
+              <div class="card-img">
+                <img src="themes/pushrevenue/assets/img/services-1.jpg" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Вебмастер</a></h5>
+                <p class="card-text">Достаточно установить специальный код на сайте и ваши посетители станут вашими подписчиками. Специальные инструменты для вебмастеров помогают получать больше подписчиков</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-left">
+            <div class="card">
+              <div class="card-img">
+                <img src="themes/pushrevenue/assets/img/services-2.jpg" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Арбитражник</a></h5>
+                <p class="card-text">Покупной трафик, трафик из социальных сетей, RON трафик. Для арбитражников есть пробивные лендинги для слива трафика и генерации подписчиков</p>
+              </div>
+            </div>
+
+      </div>
+    </div></div></section><!-- End Services Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 data-aos="fade-in">Преимущества</h2>
+          <p data-aos="fade-in">Мощный набор функционала нашей платформы и огромный опыт нашей команды позволяет партнерам получать максимальный доход с трафика</p>
+        </div>
+
+        <div class="row content">
+          <div class="col-md-5" data-aos="fade-right">
+            <img src="themes/pushrevenue/assets/img/features-1.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-4" data-aos="fade-left">
+            <h3>Высокие ставки за трафик</h3>
+            <p class="font-italic">
+              За каждый показ рекламы подписчику происходит аукцион в реальном времени, что гарантирует высокую стоимость клика всегда
+            </p>
+          </div>
+        </div>
+
+        <div class="row content">
+          <div class="col-md-5 order-1 order-md-2" data-aos="fade-left">
+            <img src="themes/pushrevenue/assets/img/features-2.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
+            <h3>Широкий инструмент для работы</h3>
+            <p class="font-italic">
+              Детальная статистика в реальном времени, API для работы со статистикой, Postback, модернизация и кастомизация лендингов и скриптов
+            </p>
+          </div>
+        </div>
+
+        <div class="row content">
+          <div class="col-md-5" data-aos="fade-right">
+            <img src="themes/pushrevenue/assets/img/features-3.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-5" data-aos="fade-left">
+            <h3>Легкая и быстрая интеграция</h3>
+            <p class="font-italic">Огромное количество промо материалов, лендингов под разные категории трафика</p>
+          </div>
+        </div>
+
+        <div class="row content">
+          <div class="col-md-5 order-1 order-md-2" data-aos="fade-left">
+            <img src="themes/pushrevenue/assets/img/features-4.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
+            <h3>Лучшая служба поддержки</h3>
+            <p class="font-italic">
+              Наша команда всегда на связи и поможет по всем вопросам
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 data-aos="fade-in">Контакты</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
+                  <i class="bx bx-envelope"></i>
+                  <p>Общие вопросы support@pushrevenue.net<br>Для рекламодателей adv@pushrevenue.net</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
+                  <i class="bx bx-phone-call"></i>
+                  <p>Telegram: @<br>Skype: @</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+
+      <div class="container" data-aos="fade-up">
+
+
+
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; <strong><span>PushRevenue</span></strong>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="themes/pushrevenue/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="themes/pushrevenue/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="themes/pushrevenue/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="themes/pushrevenue/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="themes/pushrevenue/assets/vendor/venobox/venobox.min.js"></script>
+  <script src="themes/pushrevenue/assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="themes/pushrevenue/assets/js/main.js"></script>
+
+<script type="text/javascript" src="assets/b871481e/jquery.min.js"></script>
+<script type="text/javascript" src="assets/b871481e/jquery.yiiactiveform.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+jQuery('#login-form').yiiactiveform({'validateOnSubmit':true,'validateOnChange':false,'validationUrl':'/','attributes':[{'id':'LoginForm_username','inputID':'LoginForm_username','errorID':'LoginForm_username_em_','model':'LoginForm','name':'username','enableAjaxValidation':true},{'id':'LoginForm_password','inputID':'LoginForm_password','errorID':'LoginForm_password_em_','model':'LoginForm','name':'password','enableAjaxValidation':true}],'errorCss':'error'});
+jQuery('#captchaCode').after("<a id=\"captchaCode_button\" href=\"\/user\/captcha?refresh=1\"><i class=\"fa fa-refresh fa-2x\"><\/i><\/a>");
+jQuery(document).on('click', '#captchaCode_button, #captchaCode', function(){
+	jQuery.ajax({
+		url: "\/user\/captcha?refresh=1",
+		dataType: 'json',
+		cache: false,
+		success: function(data) {
+			jQuery('#captchaCode').attr('src', data['url']);
+			jQuery('body').data('/user/captcha.hash', [data['hash1'], data['hash2']]);
+		}
+	});
+	return false;
+});
+
+jQuery('#signup').yiiactiveform({'validateOnSubmit':true,'validateOnChange':false,'validationUrl':'/user/signup','attributes':[{'id':'RegistrationForm_login','inputID':'RegistrationForm_login','errorID':'RegistrationForm_login_em_','model':'RegistrationForm','name':'login','enableAjaxValidation':true},{'id':'RegistrationForm_pass','inputID':'RegistrationForm_pass','errorID':'RegistrationForm_pass_em_','model':'RegistrationForm','name':'pass','enableAjaxValidation':true},{'id':'RegistrationForm_passRepeat','inputID':'RegistrationForm_passRepeat','errorID':'RegistrationForm_passRepeat_em_','model':'RegistrationForm','name':'passRepeat','enableAjaxValidation':true},{'id':'RegistrationForm_email','inputID':'RegistrationForm_email','errorID':'RegistrationForm_email_em_','model':'RegistrationForm','name':'email','enableAjaxValidation':true},{'id':'RegistrationForm_captchaCode','inputID':'RegistrationForm_captchaCode','errorID':'RegistrationForm_captchaCode_em_','model':'RegistrationForm','name':'captchaCode','enableAjaxValidation':true}],'errorCss':'error'});
+});
+/*]]>*/
+</script>
+</body>
+
+</html>

@@ -1,0 +1,228 @@
+<html><head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+     <link rel="stylesheet" type="text/css" href="/themes/new/css/_dashboard_index.css">
+<script type="text/javascript" src="/assets/b871481e/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/82ac22cd/bootstrap.js"></script>
+<script type="text/javascript" src="/assets/90b65eed/unicorn.login.js"></script>
+<script type="text/javascript" src="/assets/82ac22cd/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="/assets/82ac22cd/bootstrap-multiselect.js"></script>
+<script type="text/javascript" src="/assets/a8537a60/jquery-ui-1.10.4.custom.min.js"></script>
+<script type="text/javascript" src="/assets/7294fc4/spinner.js"></script>
+<script type="text/javascript" src="/assets/64f97afe/prettify.js"></script>
+<script type="text/javascript" src="/assets/7294fc4/select2.min.js"></script>
+<script type="text/javascript" src="/assets/cb834f5a/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="/assets/cb834f5a/jquery.nouislider.js"></script>
+<script type="text/javascript" src="/assets/3fcc6b49/globalize.js"></script>
+<script type="text/javascript" src="/assets/daeeb39d/init.js"></script>
+<script type="text/javascript" src="/assets/a4f58fa8/checkswitch.js"></script>
+<script type="text/javascript" src="/assets/a05dbbb0/_dashboard_index.js"></script>
+<title>PushRevenue Partner Area</title>
+	
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/themes/new/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/themes/new/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link href="/themes/new/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="/themes/new/css/creative.css" rel="stylesheet">
+	<link rel="stylesheet" href="/themes/new/css/bootstrap-datetimepicker.min.css">
+	<script src="/themes/new/js/bootstrap-datetimepicker.min.js"></script>
+		<link href="/themes/new/css/bootstrap-select.css" rel="stylesheet">
+<script src="/themes/new/js/creative.js"></script>
+<script src="/themes/new/js/bootstrap-select.js"></script>
+
+<style></style></head>
+<body id="profile">
+	<div id="lang-select-cont" style="float:right; margin-right: 100px;">
+	<div class="btn-group bootstrap-select">
+        <button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" data-id="lang-select" title="ru"><span class="filter-option pull-left">ru</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+    <div class="dropdown-menu open">
+        <ul class="dropdown-menu inner" role="menu">
+            <li data-original-index="0" class="selected">
+                <a tabindex="0" class="" style="" data-tokens="null">
+                    <span class="text">ru</span>
+                    <span class="glyphicon glyphicon-ok check-mark"></span>
+                </a>
+            </li>
+            <li data-original-index="1">
+                <a tabindex="0" class="" style="" data-tokens="null">
+                    <span class="text">en</span>
+                    <span class="glyphicon glyphicon-ok check-mark"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+        <!-- <select id="lang-select" class="selectpicker" style="width: 50px !important;" name="lang" tabindex="-98">
+            <option value="/user/lang?lang=ru" selected="selected">ru</option> -->
+<!-- <option value="/user/lang?lang=en">en</option> -->
+        <!-- </select> -->
+    </div>
+</div>
+<div class="container-fluid fill">
+    <div class="row fill">
+        <div class="col-md-3 fill">
+            <div class="left-sidebar-menu fill affix">
+                <div class="logo-md">Push <span style="color:#fdc134;">Revenue</span></div>
+                <div class="user-info">
+                    <p>Привет, <span class="user-name">heyhey</span></p>
+                    <p>
+                        Баланс:
+                        <span class="wh-text">$0.00</span>                    </p>
+					<p>
+                        <span class="wh-text"><!--?//= $position ?--></span>
+                    </p>
+                </div>
+         
+								
+												<ul class="ul-left-sidebar-menu" id="vipinstall-menu">
+<li class="active"><a href="/dashboard/index">Дашборд</a></li>
+<li><a href="/stat/totalstat">Статистика</a></li>
+<li><a href="/promo/index"><span class="cuf2">Промо</span></a></li>
+<li><a href="/payment/index"><span class="cuf2">Выплаты</span></a></li>
+<li><a href="/news/index">Новости</a></li>
+<li><a href="/ticket/index">Тикеты</a></li>
+<li><a href="/referral/index">Рефералы</a></li>
+<li><a href="/profile/index">Профиль</a></li>
+<li><a href="/faq/index">FAQ</a></li>
+<li><a href="/user/logout">Выход</a></li>
+</ul>			
+					                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="right-content">
+				<h2 id="homeHeading" class="hm" style="width:600px; height:50px;">Dashboard</h2>
+            <script>
+            $("#myDiv").load(function(){
+                    $(this).queryLoader2({
+                        barColor: "#099",
+                        backgroundColor: "#fff",
+                        percentage: true,
+                        barHeight: 1,
+                        completeAnimation: "fade"
+                    });
+            });
+            </script>
+            <div class="content-block">
+                <div id="myDiv" class="js-plotly-plot">
+                    <div class="plot-container plotly">
+                        <div class="svg-container" style=" width: 549px; height: 450px;">
+                            <svg class="main-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="549" height="450" style="background: rgb(246, 245, 240);">
+                                <defs id="defs-292efb">
+                                    <g class="clips">
+                                        <clipPath class="axesclip" id="clip292efbx">
+                                            <rect x="40" y="0" width="499" height="450"></rect>
+                                        </clipPath>
+                                        <clipPath class="axesclip" id="clip292efby"><rect x="0" y="20" width="549" height="390"></rect></clipPath><clipPath class="axesclip" id="clip292efbxy"><rect x="40" y="20" width="499" height="390"></rect></clipPath><clipPath class="plotclip" id="clip292efbxyplot"><rect width="499" height="390"></rect></clipPath></g></defs><g class="draglayer"><g transform="translate(40,20)"><rect class="drag nsewdrag cursor-crosshair" data-subplot="xy" x="0" y="0" width="499" height="390" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect>
+                                            <rect class="drag nwdrag cursor-nw-resize" data-subplot="xy" x="-20" y="-20" width="20" height="20" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect class="drag nedrag cursor-ne-resize" data-subplot="xy" x="499" y="-20" width="20" height="20" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect class="drag swdrag cursor-sw-resize" data-subplot="xy" x="-20" y="390" width="20" height="20" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect>
+                                            <rect class="drag sedrag cursor-se-resize" data-subplot="xy" x="499" y="390" width="20" height="20" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect>
+                                            <rect class="drag ewdrag cursor-ew-resize" data-subplot="xy" x="49.900000000000006" y="390.5" width="399.20000000000005" height="20" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect>
+                                            <rect class="drag wdrag cursor-w-resize" data-subplot="xy" x="0" y="390.5" width="49.900000000000006" height="20" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect class="drag edrag cursor-e-resize" data-subplot="xy" x="449.1" y="390.5" width="49.900000000000006" height="20" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect class="drag nsdrag cursor-ns-resize" data-subplot="xy" x="-20.5" y="39" width="20" height="312" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect class="drag sdrag cursor-s-resize" data-subplot="xy" x="-20.5" y="351" width="20" height="39" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect><rect class="drag ndrag cursor-n-resize" data-subplot="xy" x="-20.5" y="0" width="20" height="39" style="fill: transparent; stroke-width: 0; pointer-events: all;"></rect></g></g><g class="layer-below"><g class="imagelayer"></g><g class="shapelayer"></g></g><g class="subplot xy"><rect x="40" y="20" width="499" height="390" style="stroke-width: 0; fill: rgb(246, 245, 240); fill-opacity: 1;"></rect><g class="layer-subplot"><g class="shapelayer"></g><g class="imagelayer"></g></g><g transform="translate(40,20)"><path class="ygrid crisp" d="M0,0h499" transform="translate(0,306.57)" style="stroke: rgb(230, 229, 224); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ygrid crisp" d="M0,0h499" transform="translate(0,231.09)" style="stroke: rgb(230, 229, 224); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ygrid crisp" d="M0,0h499" transform="translate(0,155.61)" style="stroke: rgb(230, 229, 224); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ygrid crisp" d="M0,0h499" transform="translate(0,80.14)" style="stroke: rgb(230, 229, 224); stroke-opacity: 1; stroke-width: 1px;"></path><path class="ygrid crisp" d="M0,0h499" transform="translate(0,4.66)" style="stroke: rgb(230, 229, 224); stroke-opacity: 1; stroke-width: 1px;"></path></g><g></g><g transform="translate(40,20)"><path class="yzl zl crisp" d="M0,0h499" transform="translate(0,382.04)" style="stroke: rgb(68, 68, 68); stroke-opacity: 1; stroke-width: 1px;"></path></g><g></g><g transform="translate(40, 20)" clip-path="url(#clip292efbxyplot)"><g class="imagelayer"></g><g class="maplayer"></g><g class="barlayer"></g><g class="boxlayer"></g><g class="scatterlayer"><g class="trace scatter" style="stroke-miterlimit: 2; opacity: 1;"><path class="js-line" d="M28.7,166.6L91.79,147.99L154.87,150.56L217.96,210.54L281.04,200.96L344.13,23.25L407.21,166.55L470.3,366.75" style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(33, 59, 83); stroke-opacity: 1; stroke-width: 3px;"></path><g class="points"><path class="point" transform="translate(28.7,166.6)" d="M3,0A3,3 0 1,1 0,-3A3,3 0 0,1 3,0Z" style="opacity: 1; stroke-width: 0px; fill: rgb(33, 59, 83); fill-opacity: 1;"></path><path class="point" transform="translate(91.79,147.99)" d="M3,0A3,3 0 1,1 0,-3A3,3 0 0,1 3,0Z" style="opacity: 1; stroke-width: 0px; fill: rgb(33, 59, 83); fill-opacity: 1;"></path><path class="point" transform="translate(154.87,150.56)" d="M3,0A3,3 0 1,1 0,-3A3,3 0 0,1 3,0Z" style="opacity: 1; stroke-width: 0px; fill: rgb(33, 59, 83); fill-opacity: 1;"></path><path class="point" transform="translate(217.96,210.54)" d="M3,0A3,3 0 1,1 0,-3A3,3 0 0,1 3,0Z" style="opacity: 1; stroke-width: 0px; fill: rgb(33, 59, 83); fill-opacity: 1;"></path><path class="point" transform="translate(281.04,200.96)" d="M3,0A3,3 0 1,1 0,-3A3,3 0 0,1 3,0Z" style="opacity: 1; stroke-width: 0px; fill: rgb(33, 59, 83); fill-opacity: 1;"></path><path class="point" transform="translate(344.13,23.25)" d="M3,0A3,3 0 1,1 0,-3A3,3 0 0,1 3,0Z" style="opacity: 1; stroke-width: 0px; fill: rgb(33, 59, 83); fill-opacity: 1;"></path><path class="point" transform="translate(407.21,166.55)" d="M3,0A3,3 0 1,1 0,-3A3,3 0 0,1 3,0Z" style="opacity: 1; stroke-width: 0px; fill: rgb(33, 59, 83); fill-opacity: 1;"></path><path class="point" transform="translate(470.3,366.75)" d="M3,0A3,3 0 1,1 0,-3A3,3 0 0,1 3,0Z" style="opacity: 1; stroke-width: 0px; fill: rgb(33, 59, 83); fill-opacity: 1;"></path></g></g></g></g><g></g><path class="crisp" transform="translate(40,20)" d="M-1,390.5h501" style="fill: none; stroke-width: 1px; stroke: rgb(0, 0, 0); stroke-opacity: 0;"></path><path class="crisp" transform="translate(40,20)" d="M-0.5,-1v391" stroke-width="1px" style="fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 0;"></path><g></g><g transform="translate(40,20)"><g class="xtick"><text text-anchor="middle" x="0" y="404" transform="translate(28.7,0)" style="font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: visible; white-space: pre;" data-bb="10">15, April, 2021</text></g><g class="xtick"><text text-anchor="middle" x="0" y="404" transform="translate(154.87,0)" style="font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: visible; white-space: pre;" data-bb="11">17, April, 2021</text></g><g class="xtick"><text text-anchor="middle" x="0" y="404" transform="translate(281.04,0)" style="font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: visible; white-space: pre;" data-bb="12">19, April, 2021</text></g><g class="xtick"><text text-anchor="middle" x="0" y="404" transform="translate(407.21,0)" style="font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: visible; white-space: pre;" data-bb="13">21, April, 2021</text></g></g><g transform="translate(40,20)"><g class="ytick"><text text-anchor="end" x="-2" y="6" transform="translate(0,382.04)" style="font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: visible; white-space: pre;">$ 0</text></g><g class="ytick"><text text-anchor="end" x="-2" y="6" transform="translate(0,306.57)" style="font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: visible; white-space: pre;">$ 0.01</text></g><g class="ytick"><text text-anchor="end" x="-2" y="6" transform="translate(0,231.09)" style="font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: visible; white-space: pre;">$ 0.02</text></g><g class="ytick"><text text-anchor="end" x="-2" y="6" transform="translate(0,155.61)" style="font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: visible; white-space: pre;">$ 0.03</text></g><g class="ytick"><text text-anchor="end" x="-2" y="6" transform="translate(0,80.14)" style="font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: visible; white-space: pre;">$ 0.04</text></g><g class="ytick"><text text-anchor="end" x="-2" y="6" transform="translate(0,4.66)" style="font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; visibility: visible; white-space: pre;">$ 0.05</text></g></g><g></g></g><g class="ternarylayer"></g><g class="layer-above"><g class="imagelayer"></g><g class="shapelayer"></g></g><g class="pielayer"></g><g class="glimages"></g><g class="geoimages"></g><text class="js-plot-link-container" y="441" text-anchor="end" x="542" style="font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 12px; fill: rgb(68, 68, 68); pointer-events: all;"><tspan class="js-link-to-tool"></tspan><tspan class="js-link-spacer"></tspan><tspan class="js-sourcelinks"></tspan></text></svg><div class="gl-container"></div><div class="geo-container"></div><svg class="main-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="549" height="450"><defs id="topdefs-292efb"></defs><g class="infolayer"><g class="g-gtitle"></g><g class="g-xtitle" data-bb="14" transform="translate(0,-15)"></g><g class="g-ytitle" data-bb="15" transform="translate(12,0)"></g></g><g class="zoomlayer"></g><g class="hoverlayer"></g></svg></div></div></div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="prof-tit"> Баланс            </div>
+                        <div class="prof-content">$0.00 </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="prof-tit">Доход            </div>
+                        <div class="prof-content">$0.00 </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="prof-tit">Установки            </div>
+                        <div class="prof-content">0  </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="prof-tit">Клики            </div>
+                        <div class="prof-content">7 </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+<!-- jQuery -->
+<script src="/themes/new/vendor/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/themes/new/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="/themes/new/vendor/scrollreveal/scrollreveal.min.js"></script>
+<script src="/themes/new/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<!-- Theme JavaScript -->
+<script src="/themes/new/js/creative.js"></script>
+<script src="/themes/new/js/plotly-latest.min.js"></script>
+
+<script>
+    Plotly.d3.json('/dashboard/getData', function(rows){
+        var trace = {
+            type: 'scatter',                    // set the chart type
+            mode: 'lines+markers',                   // connect points with lines
+            x: rows.data[0].x,
+            y: rows.data[0].y,
+            line: {                             // set the width of the line.
+                width: 3,
+                color: '#213b53'
+            }
+        };
+
+        var layout = {
+            yaxis: { tickprefix: "$ ", },       // set the y axis title
+            xaxis: {
+
+                showgrid: false,                  // remove the x-axis grid lines
+                tickformat: "%d, %B, %Y"              // customize the date format to "month, day"
+            },
+            paper_bgcolor: '#f6f5f0',
+            plot_bgcolor: '#f6f5f0',
+            margin: {                           // update the left, bottom, right, top margin
+                l: 40, b: 40, r: 10, t: 20
+            }
+        };
+
+        Plotly.plot(document.getElementById('myDiv'), [trace], layout, {showLink: false, displaylogo: false, displayModeBar: false});
+    });
+</script>
+<div id="divId"><span class="spinner"></span></div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<!-- Bootstrap Core JavaScript -->
+
+
+<!-- Plugin JavaScript -->
+
+
+<!-- Theme JavaScript -->
+<script src="/themes/new/js/creative.js"></script>
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+jQuery('body').on('change','#lang-select',function(){jQuery.ajax({'type':'POST','global':false,'url': $('#lang-select').find('option:selected').val(),'success':function(){window.location.reload();},'cache':false,'data':jQuery(this).parents("form").serialize()});return false;});
+});
+/*]]>*/
+</script>
+
+
+
+<svg id="js-plotly-tester" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute; left: -10000px; top: -10000px; width: 9000px; height: 9000px; z-index: 1;"><path class="js-reference-point" d="M0,0H1V1H0Z" style="stroke-width: 0; fill: black;"></path></svg></body></html>

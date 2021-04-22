@@ -1,0 +1,135 @@
+<html><head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+     <link rel="stylesheet" type="text/css" href="/assets/e082dbed/gridview/styles.css">
+<script type="text/javascript" src="/assets/b871481e/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/b871481e/jquery.ba-bbq.min.js"></script>
+<script type="text/javascript" src="/assets/82ac22cd/bootstrap.js"></script>
+<script type="text/javascript" src="/assets/90b65eed/unicorn.login.js"></script>
+<script type="text/javascript" src="/assets/82ac22cd/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="/assets/82ac22cd/bootstrap-multiselect.js"></script>
+<script type="text/javascript" src="/assets/a8537a60/jquery-ui-1.10.4.custom.min.js"></script>
+<script type="text/javascript" src="/assets/7294fc4/spinner.js"></script>
+<script type="text/javascript" src="/assets/64f97afe/prettify.js"></script>
+<script type="text/javascript" src="/assets/7294fc4/select2.min.js"></script>
+<script type="text/javascript" src="/assets/cb834f5a/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="/assets/cb834f5a/jquery.nouislider.js"></script>
+<script type="text/javascript" src="/assets/3fcc6b49/globalize.js"></script>
+<script type="text/javascript" src="/assets/daeeb39d/init.js"></script>
+<script type="text/javascript" src="/assets/a4f58fa8/checkswitch.js"></script>
+<title>PushRevenue Partner Area</title>
+	
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/themes/new/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/themes/new/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link href="/themes/new/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="/themes/new/css/creative.css" rel="stylesheet">
+	<link rel="stylesheet" href="/themes/new/css/bootstrap-datetimepicker.min.css">
+	<script src="/themes/new/js/bootstrap-datetimepicker.min.js"></script>
+		<link href="/themes/new/css/bootstrap-select.css" rel="stylesheet">
+<script src="/themes/new/js/creative.js"></script>
+<script src="/themes/new/js/bootstrap-select.js"></script>
+
+</head>
+<body id="profile">
+	<div id="lang-select-cont" style="float:right; margin-right: 100px;">
+	<div class="btn-group bootstrap-select"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" data-id="lang-select" title="ru"><span class="filter-option pull-left">ru</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button><div class="dropdown-menu open"><ul class="dropdown-menu inner" role="menu"><li data-original-index="0" class="selected"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">ru</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="1"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">en</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div><select id="lang-select" class="selectpicker" style="width: 50px !important;" name="lang" tabindex="-98">
+<option value="/user/lang?lang=ru" selected="selected">ru</option>
+<option value="/user/lang?lang=en">en</option>
+</select></div></div>
+<div class="container-fluid fill">
+    <div class="row fill">
+        <div class="col-md-3 fill">
+            <div class="left-sidebar-menu fill affix">
+                <div class="logo-md">Push <span style="color:#fdc134;">Revenue</span></div>
+                <div class="user-info">
+                    <p>Привет, <span class="user-name">heyhey</span></p>
+                    <p>
+                        Баланс:
+                        <span class="wh-text">$0.00</span>                    </p>
+					<p>
+                                                <span class="wh-text"><!--?//= $position ?--></span>
+                    </p>
+                </div>
+         
+								
+												<ul class="ul-left-sidebar-menu" id="vipinstall-menu">
+<li><a href="/dashboard/index">Дашборд</a></li>
+<li><a href="/stat/totalstat">Статистика</a></li>
+<li><a href="/promo/index"><span class="cuf2">Промо</span></a></li>
+<li class="active"><a href="/payment/index"><span class="cuf2">Выплаты</span></a></li>
+<li><a href="/news/index">Новости</a></li>
+<li><a href="/ticket/index">Тикеты</a></li>
+<li><a href="/referral/index">Рефералы</a></li>
+<li><a href="/profile/index">Профиль</a></li>
+<li><a href="/faq/index">FAQ</a></li>
+<li><a href="/user/logout">Выход</a></li>
+</ul>			
+					                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="right-content">
+					<h2 id="homeHeading" class="hm" style="width:600px; height:50px;">Payment
+	 <a class="btn-green request-payment" href="/payment/create">Запросить выплату</a>	</h2>
+<div class="content-block">
+		<div class="payment-table" id="all_rquest">
+
+<table class="payment-table">
+<thead>
+<tr>
+<th id="dt_add"><a class="sort-link" href="/payment/index?WebmasterPayRequest_sort=dt_add">Дата добавления</a></th><th id="dt_end"><a class="sort-link" href="/payment/index?WebmasterPayRequest_sort=dt_end">Дата выплаты</a></th><th id="sum"><a class="sort-link" href="/payment/index?WebmasterPayRequest_sort=sum">Сумма</a></th><th id="pay_method_id"><a class="sort-link" href="/payment/index?WebmasterPayRequest_sort=pay_method_id">Метод выплаты</a></th><th id="pay_method_info"><a class="sort-link" href="/payment/index?WebmasterPayRequest_sort=pay_method_info">Платежная информация</a></th><th id="status"><a class="sort-link" href="/payment/index?WebmasterPayRequest_sort=status">Статус выплаты</a></th><th id="comment"><a class="sort-link" href="/payment/index?WebmasterPayRequest_sort=comment">Комментарий</a></th></tr>
+</thead>
+<tfoot>
+<tr>
+<td>&nbsp;</td><td>&nbsp;</td><td>0,00&nbsp;$</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+</tfoot>
+<tbody>
+<tr><td colspan="7" class="empty"><span class="empty"></span></td></tr>
+</tbody>
+</table>
+<div class="keys" style="display:none" title="/payment/index"></div>
+</div>	</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Bootstrap Core JavaScript -->
+
+
+<!-- Plugin JavaScript -->
+
+
+<!-- Theme JavaScript -->
+<script src="/themes/new/js/creative.js"></script>
+
+
+<script type="text/javascript" src="/assets/e082dbed/gridview/jquery.yiigridview.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+jQuery('#all_rquest').yiiGridView({'ajaxUpdate':['all_rquest'],'ajaxVar':'ajax','pagerClass':'pager','loadingClass':'','filterClass':'filters','tableClass':'payment-table','selectableRows':1,'enableHistory':false,'updateSelector':'{page}, {sort}','filterSelector':'{filter}','pageVar':'WebmasterPayRequest_page','afterAjaxUpdate': function(){afterAjaxUpdateGrid();}});
+jQuery('body').on('change','#lang-select',function(){jQuery.ajax({'type':'POST','global':false,'url': $('#lang-select').find('option:selected').val(),'success':function(){window.location.reload();},'cache':false,'data':jQuery(this).parents("form").serialize()});return false;});
+});
+/*]]>*/
+</script>
+
+
+
+</body></html>
